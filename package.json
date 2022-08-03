@@ -1,7 +1,9 @@
 {
   "name": "vite3-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "author": "CaoMeiYouRen",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
