@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "lts/*"
           cache: "pnpm"
-      - run: pnpm i
+      - run: pnpm i --fix-lockfile
       - run: pnpm run lint
       - run: pnpm run lint:css
       - run: pnpm run build
