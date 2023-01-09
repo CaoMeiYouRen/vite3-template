@@ -9,7 +9,7 @@ export default defineConfig({
         tsconfigPaths(),
     ],
     server: {
-        // port: 4000,
+        port: 4300,
         open: true,
         proxy: {},
     },
